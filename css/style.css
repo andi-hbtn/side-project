@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.container-fluid {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.navbar-brand {}
+
+.collapse.navbar-collapse {
+    margin-left: 300px;
+}
+
+.btn.signin {
+    margin-left:130px;
+    width: 140px;
+    height: 50px;
+}
+
+.btn.getstarted {
+    color: white;
+    background: #175cff;
+    width: 140px;
+    height: 50px;
+    margin-left:20px;
+}
