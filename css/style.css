@@ -27,3 +27,27 @@
     height: 50px;
     margin-left:20px;
 }
+
+.text-grey {
+    color: #9aa2b8;
+}
+
+.custom-width {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-color: #20408c;
+}
+
+.custom-width:hover {
+    background-color: #175cff;
+    border-color: #175cff;
+}
+
+.custom-size {
+    font-size: 12px;
+}
+
+.background {
+    background: linear-gradient(to right, #000717, #002d97);
+}
