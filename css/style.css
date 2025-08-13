@@ -32,22 +32,37 @@
     color: #9aa2b8;
 }
 
+.text-grey:hover {
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.custom-color {
+    color: #d9d9d9;
+}
+
 .custom-width {
     width: 35px;
     height: 35px;
-    border: 2px solid black;
-    border-color: #20408c;
+    border: 2px solid #20408c;
 }
 
 .custom-width:hover {
     background-color: #175cff;
     border-color: #175cff;
+    transition: all .3s ease-in-out;
 }
 
 .custom-size {
     font-size: 12px;
 }
 
-.background {
+.footer-background {
     background: linear-gradient(to right, #000717, #002d97);
+}
+
+@media (max-width: 768px) {
+    .custom-width {
+        border: 2px solid #1e2c4d;
+    }
 }
