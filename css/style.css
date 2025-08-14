@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 .container-fluid {
@@ -8,16 +8,47 @@
     margin: 10px auto;
 }
 
-.navbar-brand {}
-
 .collapse.navbar-collapse {
-    margin-left: 300px;
+    margin-left: 220px;
+}
+
+.nav-item {
+    width: 100px;
+    text-align: center;
+}
+
+.nav-item a:hover {
+    color: #002d97;
+}
+
+.nav-item .dropdown-menu {
+    display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    border: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu.p3 {
+    display: block;
+    border: none;
+    width: 600px;
+    height: 200px;
+}
+
+.dropdown-item .dropdown-text {
+    margin-left: 10px;
 }
 
 .btn.signin {
-    margin-left:130px;
+    margin-left: 130px;
     width: 140px;
     height: 50px;
+}
+
+.btn.signin:hover {
+    color: #002d97;
 }
 
 .btn.getstarted {
@@ -25,7 +56,15 @@
     background: #175cff;
     width: 140px;
     height: 50px;
-    margin-left:20px;
+    margin-left: 20px;
+}
+
+.btn.getstarted:hover {
+    background-color: #0044e3;
+}
+
+main {
+    padding-top: 80px;
 }
 
 .text-grey {
