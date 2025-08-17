@@ -230,6 +230,26 @@ font-weight:200;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
 }
 
+.fw-800 {
+    font-weight: 800;
+}
+
+.p-services {
+    font-size: 16px;
+    font-weight: 300;
+    color: #737373;
+    font-family: sans-serif;
+    line-height: 28px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.service:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
 .text-grey {
     color: #9aa2b8;
 }
