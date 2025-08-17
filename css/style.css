@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    margin: 10px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .container-fluid {
@@ -152,8 +152,82 @@ font-weight:200;
     background-color: #0044e3;
 }
 
-main {
-    padding-top: 80px;
+.hero-section {
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ptb-120 {
+    padding: 120px 0;
+}
+
+.fw-bold {
+    font-weight: 900 !important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-size: 20px;
+    color: #737373;
+    font-family: sans-serif;
+}
+
+.btn-request {
+    color: white;
+    background: #175cff;
+    width: 197px;
+    height: 51px;
+}
+
+.btn-request:hover {
+    color: white;
+    background-color: #0044e3;
+    transition: all .3s ease-in-out;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.dots img {
+    position: absolute;
+}
+
+.dots .dot-1 {
+    bottom: 20px;
+    left: 65px;
+    z-index: -1;
+}
+
+.dots .dot-2 {
+    top: 115px;
+    right: 25px;
+    z-index: -1;
+}
+
+.bubble span {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.bubble .bubble-1 {
+    height: 160px;
+    width: 160px;
+    background-color: #175cff;
+    left: 0;
+    bottom: 10%;
+}
+
+.bubble .bubble-2 {
+    height: 85px;
+    width: 85px;
+    background-color: #fff;
+    right: 0;
+    top: 30%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
 }
 
 .text-grey {
@@ -187,6 +261,39 @@ main {
 
 .footer-background {
     background: linear-gradient(to right, #000717, #002d97);
+}
+
+.footer-form input {
+    padding: .65rem 1rem;
+}
+
+.footer-form input[type="email"] {
+    font-size: 15px;
+    color: #969696;
+    border: 2px solid #969696;
+}
+
+.footer-form input[type="email"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.footer-form input[type="email"]::placeholder {
+    font-size: 15px;
+    color: #969696;
+}
+
+.btn-subscribe {
+    color: white;
+    background-color: #165cff;
+    border-color: #165cff;
+}
+
+.btn-subscribe:hover {
+    color: white;
+    background-color: #0044e3;
+    border-color: #0044e3;
+    transition: all .3s ease-in-out;
 }
 
 @media (max-width: 768px) {
