@@ -368,12 +368,12 @@
 
 .pricing-section .row .col-4 .container ul {
     margin-top: 50px;
-    margin-left:30px;
+    margin-left: 30px;
 }
 
 .pricing-section .row .col-4 .container-2 ul {
     margin-top: 50px;
-    margin-left:30px;
+    margin-left: 30px;
 }
 
 .pricing-section .row .col-4 .container li {
@@ -401,6 +401,17 @@
 
 }
 
+.pricing-section .row .col-4 .container button:hover {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #175cff;
+    color: white;
+}
+
 .pricing-section .row .col-4 .container-2 button {
     margin-top: 40px;
     margin-left: 30px;
@@ -412,12 +423,23 @@
     color: white;
 }
 
+.pricing-section .row .col-4 .container-2 button:hover{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #144dd3;
+    color: white;
+}
+
 .text-success {
     --bs-text-opacity: 1;
     color: #75b51c;
 }
 
-.list-unstyled{
+.list-unstyled {
     padding-left: 0;
     list-style: none;
 }
