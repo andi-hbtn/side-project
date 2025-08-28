@@ -24,26 +24,26 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#home">
                                 Home
                             </a>
                         </li>
                         <!-- SERVICES -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
 
                         <!-- PRICING -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#pricing">Pricing</a>
                         </li>
                     </ul>
-                    <button class="btn getstarted">Book a call</button>
+                    <a href="#book-call" class="btn btn-primary book-call-small">Book a call</a>
                 </div>
             </div>
         </nav>
 
-        <div class="hero-section ptb-120">
+        <div class="hero-section ptb-120" id="home">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-10">
@@ -74,7 +74,7 @@
     </header>
 
     <main>
-        <section class="py-5">
+        <section class="py-5" id="services">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h1 class="fw-800 mb-2">Services We Provide</h1>
@@ -136,28 +136,7 @@
             </div>
         </section>
 
-
-        <section class="hero-section">
-            <div class="circle"></div>
-            <div class="container position-relative">
-                <h6 class="text-warning fw-bold">Let’s talk about your project</h6>
-                <h1 class="mb-3">Build Your Website, The Right Way</h1>
-                <p class="mb-4">Custom E-commerce, Web Apps & Blogs designed to convert.</p>
-
-                <!-- Buttons -->
-                <div class="d-flex justify-content-center mb-4">
-                    <a href="#" class="btn btn-custom">Book a Free Call</a>
-                </div>
-
-                <!-- Features -->
-                <div class="features">
-                    <h2>No obligations. 15–20 min discovery.</h2>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="pricing-section">
+        <section class="pricing-section" id="pricing">
             <h1>Get our any Service <br> With Suitable Pricing</h1>
             <p>Credibly grow premier ideas rather than bricks-and-clicks strategic theme areas<br> distributed for
                 stand-alone web-readiness.</p>
@@ -220,6 +199,36 @@
                 </div>
             </div>
 
+        </section>
+
+        <section class="hero-section" id="book-call">
+            <div class="circle"></div>
+            <div class="container position-relative">
+                <h6 class="text-warning fw-bold">Let’s talk about your project</h6>
+                <h1 class="mb-3">Build Your Website, The Right Way</h1>
+                <p class="mb-4">Custom E-commerce, Web Apps & Blogs designed to convert.</p>
+
+                <!-- Buttons -->
+                <button type="button" class="btn btn-primary book-call" data-bs-toggle="modal"
+                    data-bs-target="#bookCallModal">
+                    <a href="https://calendly.com/andi-bevapi/30min" target="_blank">
+                        Book a Free Call
+                    </a>
+                </button>
+
+                <!-- Features -->
+                <div class="features">
+                    <h2>No obligations. 15–20 min discovery.</h2>
+                    <ul>
+                        <li><span class="checkmark">✔</span>Transparent pricing — no hidden fees</li>
+                        <li><span class="checkmark">✔</span>Admin panel you'll actually use</li>
+                        <li><span class="checkmark">✔</span>Mobile-first, lightning-fast performance</li>
+                        <li><span class="checkmark">✔</span>Launch support & onboarding</li>
+                        <li><span class="checkmark">✔</span>SEO-ready & analytics included</li>
+                        <li><span class="checkmark">✔</span>100% ownership of your code & data</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -361,7 +370,7 @@
         <div class="container py-4">
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 mb-3 mb-md-0 col-md-8">
-                    <p class="custom-color small m-0">© 2021 Quiety Rights Reserved. Designed By ThemeTags</p>
+                    <p class="custom-color small m-0">© 2025 Quiety Rights Reserved. Designed By ThemeTags</p>
                 </div>
                 <div class="col-12 col-md-4 d-flex justify-content-md-end gap-2">
                     <div class="d-flex justify-content-center align-items-center rounded-1 text-grey custom-width">

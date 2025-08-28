@@ -140,16 +140,10 @@
     color: #002d97;
 }
 
-.btn.getstarted {
-    color: white;
-    background: #175cff;
-    width: 140px;
-    height: 50px;
-    margin-left: 20px;
-}
 
-.btn.getstarted:hover {
-    background-color: #0044e3;
+.book-call-small a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .hero-section {
@@ -464,18 +458,28 @@
     color: #cbd5e1;
 }
 
-.btn-custom {
-    background-color: #2563eb;
-    /* Blue */
-    color: white;
-    border-radius: 8px;
-    padding: 12px 24px;
-    margin-right: 15px;
+.book-call a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.btn-custom:hover {
-    background-color: #1d4ed8;
-    color: #fff;
+.book-call {
+    padding: 20px;
+}
+
+.features ul {
+    list-style: none;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.features ul li {
+    margin: 10px 0;
+}
+
+.checkmark {
+    color: #ffd700;
+    margin-right: 8px;
 }
 
 .btn-outline-light {
